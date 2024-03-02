@@ -18,12 +18,6 @@ const LoginForm = () => {
   return (
     <>
       <h1>Please Login</h1>
-      <label htmlFor="nameId">Username</label>
-      <input id="nameId" type="text" />
-
-      <label htmlFor="passwordId">Password</label>
-      <input id="passwordId" type="password" />
-
       <button type="button" onClick={loginButtonClicked}>
         Login with Sample Creds
       </button>
